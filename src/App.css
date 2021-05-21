@@ -1,5 +1,19 @@
+body{
+  background-color: lightblue;
+}
 .App {
+  margin: 10px auto;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+    transition: all;
+    transition-duration: 3s;
+    transition-delay: 2ms;
+}
+
+.App:hover {
+  transform: scale(1.03);
+  box-shadow: 5px 10px rgb(113, 202, 231);
 }
 
 .App-logo {
